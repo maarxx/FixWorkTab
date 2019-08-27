@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkTypeDef[defName = "Doctor"]/naturalPriority</xpath>
+    <value>
+        <naturalPriority>1375</naturalPriority>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkTypeDef[defName = "Managing"]/naturalPriority</xpath>
+    <value>
+        <naturalPriority>1125</naturalPriority>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkTypeDef[defName = "Hunting"]/naturalPriority</xpath>
+    <value>
+        <naturalPriority>650</naturalPriority>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkTypeDef[defName = "Art"]/naturalPriority</xpath>
+    <value>
+        <naturalPriority>375</naturalPriority>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkTypeDef[defName = "Research"]/naturalPriority</xpath>
+    <value>
+        <naturalPriority>350</naturalPriority>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkTypeDef[defName = "Cleaning"]/naturalPriority</xpath>
+    <value>
+        <naturalPriority>325</naturalPriority>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "DeliverFoodToPrisoner"]/workType</xpath>
+    <value>
+        <workType>BasicWorker</workType>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "DeliverFoodToPrisoner"]/priorityInType</xpath>
+    <value>
+		<priorityInType>510</priorityInType>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "FeedPrisoner"]/workType</xpath>
+    <value>
+        <workType>BasicWorker</workType>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "FeedPrisoner"]/priorityInType</xpath>
+    <value>
+		<priorityInType>520</priorityInType>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "TakePrisonerToBed"]/workType</xpath>
+    <value>
+        <workType>BasicWorker</workType>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "TakePrisonerToBed"]/priorityInType</xpath>
+    <value>
+		<priorityInType>530</priorityInType>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "ReleasePrisoner"]/workType</xpath>
+    <value>
+        <workType>BasicWorker</workType>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "ReleasePrisoner"]/priorityInType</xpath>
+    <value>
+		<priorityInType>540</priorityInType>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "DoExecution"]/workType</xpath>
+    <value>
+        <workType>BasicWorker</workType>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "DoExecution"]/priorityInType</xpath>
+    <value>
+		<priorityInType>550</priorityInType>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "TakeToBedToOperate"]/workType</xpath>
+    <value>
+        <workType>BasicWorker</workType>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "TakeToBedToOperate"]/priorityInType</xpath>
+    <value>
+		<priorityInType>560</priorityInType>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "DoctorFeedAnimals"]/workType</xpath>
+    <value>
+        <workType>BasicWorker</workType>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "DoctorFeedAnimals"]/priorityInType</xpath>
+    <value>
+		<priorityInType>570</priorityInType>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "DoctorRescue"]/workType</xpath>
+    <value>
+        <workType>BasicWorker</workType>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "DoctorRescue"]/priorityInType</xpath>
+    <value>
+		<priorityInType>580</priorityInType>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "DoctorFeedHumanlikes"]/workType</xpath>
+    <value>
+        <workType>BasicWorker</workType>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "DoctorFeedHumanlikes"]/priorityInType</xpath>
+    <value>
+		<priorityInType>590</priorityInType>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "BasicReleasePrisoner"]/priorityInType</xpath>
+    <value>
+        <!-- <workType>BasicWorker</workType> -->
+		<priorityInType>490</priorityInType>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "Open"]/priorityInType</xpath>
+    <value>
+        <!-- <workType>BasicWorker</workType> -->
+		<priorityInType>480</priorityInType>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "Uninstall"]/workType</xpath>
+    <value>
+        <workType>BasicWorker</workType>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "Uninstall"]/priorityInType</xpath>
+    <value>
+		<priorityInType>470</priorityInType>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "BuildRoofs"]/workType</xpath>
+    <value>
+        <workType>BasicWorker</workType>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "BuildRoofs"]/priorityInType</xpath>
+    <value>
+		<priorityInType>460</priorityInType>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "RemoveRoofs"]/workType</xpath>
+    <value>
+        <workType>BasicWorker</workType>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "RemoveRoofs"]/priorityInType</xpath>
+    <value>
+		<priorityInType>450</priorityInType>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "ConstructDeliverResourcesToFrames"]/workType</xpath>
+    <value>
+        <workType>BasicWorker</workType>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "ConstructDeliverResourcesToFrames"]/priorityInType</xpath>
+    <value>
+		<priorityInType>440</priorityInType>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "ConstructDeliverResourcesToBlueprints"]/workType</xpath>
+    <value>
+        <workType>BasicWorker</workType>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "ConstructDeliverResourcesToBlueprints"]/priorityInType</xpath>
+    <value>
+		<priorityInType>430</priorityInType>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "Repair"]/workType</xpath>
+    <value>
+        <workType>BasicWorker</workType>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "Repair"]/priorityInType</xpath>
+    <value>
+		<priorityInType>420</priorityInType>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "RearmTurrets"]/workType</xpath>
+    <value>
+        <workType>BasicWorker</workType>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "RearmTurrets"]/priorityInType</xpath>
+    <value>
+		<priorityInType>410</priorityInType>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "UnloadCarriers"]/workType</xpath>
+    <value>
+        <workType>BasicWorker</workType>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "UnloadCarriers"]/priorityInType</xpath>
+    <value>
+		<priorityInType>400</priorityInType>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "LoadTransporters"]/workType</xpath>
+    <value>
+        <workType>BasicWorker</workType>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "LoadTransporters"]/priorityInType</xpath>
+    <value>
+		<priorityInType>390</priorityInType>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "HelpGatheringItemsForCaravan"]/workType</xpath>
+    <value>
+        <workType>BasicWorker</workType>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "HelpGatheringItemsForCaravan"]/priorityInType</xpath>
+    <value>
+		<priorityInType>380</priorityInType>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "Strip"]/workType</xpath>
+    <value>
+        <workType>BasicWorker</workType>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "Strip"]/priorityInType</xpath>
+    <value>
+		<priorityInType>370</priorityInType>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "Refuel"]/workType</xpath>
+    <value>
+        <workType>BasicWorker</workType>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "Refuel"]/priorityInType</xpath>
+    <value>
+		<priorityInType>360</priorityInType>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "DoBillsCremate"]/workType</xpath>
+    <value>
+        <workType>BasicWorker</workType>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "DoBillsCremate"]/priorityInType</xpath>
+    <value>
+		<priorityInType>350</priorityInType>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "DoBillsHaulCampfire"]/workType</xpath>
+    <value>
+        <workType>BasicWorker</workType>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "DoBillsHaulCampfire"]/priorityInType</xpath>
+    <value>
+		<priorityInType>340</priorityInType>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "TakeBeerOutOfFermentingBarrel"]/workType</xpath>
+    <value>
+        <workType>BasicWorker</workType>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "TakeBeerOutOfFermentingBarrel"]/priorityInType</xpath>
+    <value>
+		<priorityInType>330</priorityInType>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "FillFermentingBarrel"]/workType</xpath>
+    <value>
+        <workType>BasicWorker</workType>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "FillFermentingBarrel"]/priorityInType</xpath>
+    <value>
+		<priorityInType>320</priorityInType>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "DeliverResourcesToFrames"]/workType</xpath>
+    <value>
+        <workType>BasicWorker</workType>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "DeliverResourcesToFrames"]/priorityInType</xpath>
+    <value>
+		<priorityInType>310</priorityInType>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "DeliverResourcesToBlueprints"]/workType</xpath>
+    <value>
+        <workType>BasicWorker</workType>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "DeliverResourcesToBlueprints"]/priorityInType</xpath>
+    <value>
+		<priorityInType>300</priorityInType>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "VisitSickPawn"]/workType</xpath>
+    <value>
+        <workType>Warden</workType>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "VisitSickPawn"]/priorityInType</xpath>
+    <value>
+		<priorityInType>50</priorityInType>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "DoBillsSmelter"]/workType</xpath>
+    <value>
+        <workType>Hauling</workType>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "DoBillsSmelter"]/priorityInType</xpath>
+    <value>
+		<priorityInType>25</priorityInType>
+    </value>
+</Operation>
+</Patch>
