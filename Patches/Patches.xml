@@ -117,6 +117,19 @@
 </Operation>
 
 <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "HandlingFeedPatientAnimals"]/workType</xpath>
+    <value>
+        <workType>BasicWorker</workType>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "HandlingFeedPatientAnimals"]/priorityInType</xpath>
+    <value>
+        <priorityInType>565</priorityInType>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
     <xpath>/Defs/WorkGiverDef[defName = "DoctorFeedAnimals"]/workType</xpath>
     <value>
         <workType>BasicWorker</workType>
@@ -350,6 +363,19 @@
     <xpath>/Defs/WorkGiverDef[defName = "FillFermentingBarrel"]/priorityInType</xpath>
     <value>
         <priorityInType>320</priorityInType>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "CookFillHopper"]/workType</xpath>
+    <value>
+        <workType>BasicWorker</workType>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "CookFillHopper"]/priorityInType</xpath>
+    <value>
+        <priorityInType>315</priorityInType>
     </value>
 </Operation>
 
