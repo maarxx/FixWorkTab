@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <WorkTypeDef>
+    <defName>Nurse</defName>
+    <labelShort>Nurse</labelShort>
+    <pawnLabel>Nurse</pawnLabel>
+    <gerundLabel>nursing</gerundLabel>
+    <description>Take care of people and animals.</description>
+    <verb>Nurse</verb>
+    <naturalPriority>1275</naturalPriority>
+    <alwaysStartActive>true</alwaysStartActive>
+    <workTags>
+      <li>Commoner</li>
+      <li>AllWork</li>
+    </workTags>
+  </WorkTypeDef>
+  
+</Defs>
