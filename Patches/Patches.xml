@@ -59,6 +59,13 @@
 </Operation>
 
 <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkTypeDef[defName = "Nurse"]/naturalPriority</xpath>
+    <value>
+        <naturalPriority>347</naturalPriority>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
     <xpath>/Defs/WorkTypeDef[defName = "HaulingUrgent"]/naturalPriority</xpath>
     <value>
         <naturalPriority>345</naturalPriority>
@@ -161,13 +168,13 @@
 <Operation Class="PatchOperationReplace">
     <xpath>/Defs/WorkGiverDef[defName = "TakePrisonerToBed"]/workType</xpath>
     <value>
-        <workType>BasicWorker</workType>
+        <workType>Nurse</workType>
     </value>
 </Operation>
 <Operation Class="PatchOperationReplace">
     <xpath>/Defs/WorkGiverDef[defName = "TakePrisonerToBed"]/priorityInType</xpath>
     <value>
-        <priorityInType>530</priorityInType>
+        <priorityInType>575</priorityInType>
     </value>
 </Operation>
 <Operation Class="PatchOperationAdd">
