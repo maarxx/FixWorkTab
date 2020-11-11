@@ -131,6 +131,13 @@
 </Operation>
 
 <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "FightFires"]/emergency</xpath>
+    <value>
+        <emergency>false</emergency>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
     <xpath>/Defs/WorkGiverDef[defName = "Tame"]/priorityInType</xpath>
     <value>
         <priorityInType>60</priorityInType>
