@@ -530,6 +530,13 @@
 </Operation>
 
 <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "DoBillsCremate"]/priorityInType</xpath>
+    <value>
+        <priorityInType>95</priorityInType>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
     <xpath>/Defs/WorkGiverDef[defName = "DoBillsSmelter"]/workType</xpath>
     <value>
         <workType>Hauling</workType>
