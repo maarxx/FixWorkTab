@@ -342,7 +342,7 @@
 <Operation Class="PatchOperationReplace">
     <xpath>/Defs/WorkGiverDef[defName = "DoctorFeedHumanlikes"]/priorityInType</xpath>
     <value>
-        <priorityInType>590</priorityInType>
+        <priorityInType>572</priorityInType>
     </value>
 </Operation>
 <Operation Class="PatchOperationAdd">
