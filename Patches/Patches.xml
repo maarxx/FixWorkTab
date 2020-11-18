@@ -5,14 +5,14 @@
 <Operation Class="PatchOperationReplace">
     <xpath>/Defs/WorkTypeDef[defName = "Doctor"]/naturalPriority</xpath>
     <value>
-        <naturalPriority>1500</naturalPriority>
+        <naturalPriority>1395</naturalPriority>
     </value>
 </Operation>
 
 <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/WorkTypeDef[defName = "Firefighter"]/naturalPriority</xpath>
+    <xpath>/Defs/WorkTypeDef[defName = "Firefighter"]/labelShort</xpath>
     <value>
-        <naturalPriority>1190</naturalPriority>
+        <labelShort>Fire(E)</labelShort>
     </value>
 </Operation>
 
@@ -127,13 +127,6 @@
         <li>Commoner</li>
         <li>AllWork</li>
       </workTags>
-    </value>
-</Operation>
-
-<Operation Class="PatchOperationReplace">
-    <xpath>/Defs/WorkGiverDef[defName = "FightFires"]/emergency</xpath>
-    <value>
-        <emergency>false</emergency>
     </value>
 </Operation>
 

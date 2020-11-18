@@ -3,6 +3,36 @@
 <Defs>
 
   <WorkTypeDef>
+    <defName>FirefighterNE</defName>
+    <labelShort>Fire(NE)</labelShort>
+    <pawnLabel>Firefighter</pawnLabel>
+    <gerundLabel>firefighting</gerundLabel>
+    <description>Extinguish fires in the colony.</description>
+    <verb>Extinguish</verb>
+    <naturalPriority>1190</naturalPriority>
+    <alwaysStartActive>true</alwaysStartActive>
+    <requireCapableColonist>true</requireCapableColonist>
+    <workTags>
+      <li>Firefighting</li>
+      <li>Commoner</li>
+      <li>AllWork</li>
+    </workTags>
+  </WorkTypeDef>
+  
+  <WorkGiverDef>
+    <defName>FightFiresNE</defName>
+    <label>fight fires</label>
+    <giverClass>WorkGiver_FightFires</giverClass>
+    <workType>FirefighterNE</workType>
+    <emergency>false</emergency>
+    <verb>extinguish</verb>
+    <gerund>extinguishing</gerund>
+    <canBeDoneWhileDrafted>true</canBeDoneWhileDrafted>
+    <autoTakeablePriorityDrafted>20</autoTakeablePriorityDrafted>
+    <forceMote>Mote_FeedbackExtinguish</forceMote>
+  </WorkGiverDef>
+
+  <WorkTypeDef>
     <defName>Nurse</defName>
     <labelShort>Nurse</labelShort>
     <pawnLabel>Nurse</pawnLabel>
