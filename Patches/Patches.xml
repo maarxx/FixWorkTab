@@ -90,31 +90,31 @@
     </value>
 </Operation>
 
-<Operation Class="PatchOperationReplace">
+<!-- <Operation Class="PatchOperationReplace">
     <xpath>/Defs/WorkTypeDef[defName = "Cleaning"]/naturalPriority</xpath>
     <value>
         <naturalPriority>325</naturalPriority>
     </value>
-</Operation>
+</Operation> -->
 
 <Operation Class="PatchOperationReplace">
     <xpath>/Defs/WorkTypeDef[defName = "PlantCutting"]/naturalPriority</xpath>
     <value>
-        <naturalPriority>250</naturalPriority>
+        <naturalPriority>150</naturalPriority>
     </value>
 </Operation>
 
 <Operation Class="PatchOperationReplace">
     <xpath>/Defs/WorkTypeDef[defName = "Hunting"]/naturalPriority</xpath>
     <value>
-        <naturalPriority>200</naturalPriority>
+        <naturalPriority>100</naturalPriority>
     </value>
 </Operation>
 
 <Operation Class="PatchOperationReplace">
     <xpath>/Defs/WorkTypeDef[defName = "TreeChopping"]/naturalPriority</xpath>
     <value>
-        <naturalPriority>100</naturalPriority>
+        <naturalPriority>80</naturalPriority>
     </value>
 </Operation>
 
