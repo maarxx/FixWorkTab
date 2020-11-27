@@ -466,26 +466,26 @@
     </value>
 </Operation>
 
-<Operation Class="PatchOperationReplace">
+<!-- <Operation Class="PatchOperationReplace">
     <xpath>/Defs/WorkGiverDef[defName = "Repair"]/workType</xpath>
     <value>
         <workType>BasicWorker</workType>
     </value>
-</Operation>
+</Operation> -->
 <Operation Class="PatchOperationReplace">
     <xpath>/Defs/WorkGiverDef[defName = "Repair"]/priorityInType</xpath>
     <value>
-        <priorityInType>420</priorityInType>
+        <priorityInType>40</priorityInType>
     </value>
 </Operation>
-<Operation Class="PatchOperationAdd">
+<!-- <Operation Class="PatchOperationAdd">
     <xpath>/Defs/WorkGiverDef[defName = "Repair"]</xpath>
     <value>
       <workTags>
         <li>ManualSkilled</li>
       </workTags>
     </value>
-</Operation>
+</Operation> -->
 
 <Operation Class="PatchOperationReplace">
     <xpath>/Defs/WorkGiverDef[defName = "CookFillHopper"]/workType</xpath>
