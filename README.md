@@ -33,6 +33,8 @@ We've split out "Stonecutting" from Crafting into its own WorkType.
 
 There's two different Firefighting, one with (E) and one with (NE), for "Emergency" and "Non Emergency" respectively. (E) is the old behavior, where (NE) is a new variant in which pawns will only reasonably firefight within their scheduled working hours, and won't push themselves to the brink of exhaustion/starvation/mental break.
 
+We move the Meditation WorkTypes (from my other mod, below) to more appropriate places.
+
 Probably other stuff that I've forgotten.
 
 This depends on a bunch of other mods:
