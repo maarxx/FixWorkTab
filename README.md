@@ -42,6 +42,7 @@ This depends on a bunch of other mods:
 * [Allow Tool](https://ludeon.com/forums/index.php?topic=17218.0)
 * [Separate Tree Chopping Priority (Continued)](https://github.com/emipa606/SeparateTreeChoppingPriority)
 
+![WorkTabPreview](./About/Preview.png)
 
 # How to Install
 
