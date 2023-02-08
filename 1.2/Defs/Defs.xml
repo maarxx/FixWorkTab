@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <WorkTypeDef>
+    <defName>FirefighterNE</defName>
+    <labelShort>Fire(NE)</labelShort>
+    <pawnLabel>Firefighter</pawnLabel>
+    <gerundLabel>firefighting</gerundLabel>
+    <description>Extinguish fires in the colony.</description>
+    <verb>Extinguish</verb>
+    <naturalPriority>1190</naturalPriority>
+    <alwaysStartActive>true</alwaysStartActive>
+    <requireCapableColonist>true</requireCapableColonist>
+    <workTags>
+      <li>Firefighting</li>
+      <li>Commoner</li>
+      <li>AllWork</li>
+    </workTags>
+  </WorkTypeDef>
+  
+  <WorkGiverDef>
+    <defName>FightFiresNE</defName>
+    <label>fight fires</label>
+    <giverClass>WorkGiver_FightFires</giverClass>
+    <workType>FirefighterNE</workType>
+    <emergency>false</emergency>
+    <verb>extinguish</verb>
+    <gerund>extinguishing</gerund>
+    <canBeDoneWhileDrafted>true</canBeDoneWhileDrafted>
+    <autoTakeablePriorityDrafted>20</autoTakeablePriorityDrafted>
+    <forceMote>Mote_FeedbackExtinguish</forceMote>
+  </WorkGiverDef>
+
+  <WorkTypeDef>
+    <defName>Nurse</defName>
+    <labelShort>Nurse</labelShort>
+    <pawnLabel>Nurse</pawnLabel>
+    <gerundLabel>nursing</gerundLabel>
+    <description>Take care of people and animals.</description>
+    <verb>Nurse</verb>
+    <naturalPriority>1275</naturalPriority>
+    <alwaysStartActive>true</alwaysStartActive>
+    <workTags>
+      <li>Commoner</li>
+      <li>AllWork</li>
+    </workTags>
+  </WorkTypeDef>
+  
+  <WorkTypeDef>
+    <defName>Stonecutting</defName>
+    <labelShort>Stonecutting</labelShort>
+    <pawnLabel>Stonecutter</pawnLabel>
+    <gerundLabel>cutting stone blocks at</gerundLabel>
+    <description>Cut stone chunks into stone blocks.</description>
+    <verb>Stonecutting</verb>
+    <naturalPriority>50</naturalPriority>
+    <alwaysStartActive>true</alwaysStartActive>
+    <workTags>
+      <li>Crafting</li>
+      <li>ManualSkilled</li>
+      <li>Commoner</li>
+      <li>AllWork</li>
+    </workTags>
+  </WorkTypeDef>  
+</Defs>
