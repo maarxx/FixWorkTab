@@ -52,13 +52,6 @@
 </Operation>
 
 <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/WorkTypeDef[defName = "TreeChopping"]/naturalPriority</xpath>
-    <value>
-        <naturalPriority>680</naturalPriority>
-    </value>
-</Operation>
-
-<Operation Class="PatchOperationReplace">
     <xpath>/Defs/WorkTypeDef[defName = "Mining"]/naturalPriority</xpath>
     <value>
         <naturalPriority>485</naturalPriority>
@@ -129,18 +122,6 @@
     <xpath>/Defs/WorkTypeDef[defName = "Hunting"]/naturalPriority</xpath>
     <value>
         <naturalPriority>100</naturalPriority>
-    </value>
-</Operation>
-
-<Operation Class="PatchOperationReplace">
-    <xpath>/Defs/WorkTypeDef[defName = "TreeChopping"]/workTags</xpath>
-    <value>
-      <workTags>
-        <li>ManualSkilled</li>
-        <li>PlantWork</li>
-        <li>Commoner</li>
-        <li>AllWork</li>
-      </workTags>
     </value>
 </Operation>
 
