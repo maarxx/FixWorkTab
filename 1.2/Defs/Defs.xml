@@ -4,7 +4,7 @@
 
   <WorkTypeDef>
     <defName>FirefighterNE</defName>
-    <labelShort>firefight (NE)</labelShort>
+    <labelShort>Fire(NE)</labelShort>
     <pawnLabel>Firefighter</pawnLabel>
     <gerundLabel>firefighting</gerundLabel>
     <description>Extinguish fires in the colony.</description>
@@ -21,7 +21,7 @@
   
   <WorkGiverDef>
     <defName>FightFiresNE</defName>
-    <label>fight fires (NE)</label>
+    <label>fight fires</label>
     <giverClass>WorkGiver_FightFires</giverClass>
     <workType>FirefighterNE</workType>
     <emergency>false</emergency>
@@ -29,7 +29,7 @@
     <gerund>extinguishing</gerund>
     <canBeDoneWhileDrafted>true</canBeDoneWhileDrafted>
     <autoTakeablePriorityDrafted>20</autoTakeablePriorityDrafted>
-    <forceFleck>FeedbackExtinguish</forceFleck>
+    <forceMote>Mote_FeedbackExtinguish</forceMote>
   </WorkGiverDef>
 
   <WorkTypeDef>
