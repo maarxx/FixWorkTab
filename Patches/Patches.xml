@@ -336,6 +336,48 @@
 </Operation>
 
 <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "TakeRoamingAnimalsToPen"]/workType</xpath>
+    <value>
+        <workType>BasicWorker</workType>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "TakeRoamingAnimalsToPen"]/priorityInType</xpath>
+    <value>
+        <priorityInType>490</priorityInType>
+    </value>
+</Operation>
+<Operation Class="PatchOperationAdd">
+    <xpath>/Defs/WorkGiverDef[defName = "TakeRoamingAnimalsToPen"]</xpath>
+    <value>
+      <workTags>
+        <li>Animals</li>
+      </workTags>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "TakeToPen"]/workType</xpath>
+    <value>
+        <workType>BasicWorker</workType>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "TakeToPen"]/priorityInType</xpath>
+    <value>
+        <priorityInType>480</priorityInType>
+    </value>
+</Operation>
+<Operation Class="PatchOperationAdd">
+    <xpath>/Defs/WorkGiverDef[defName = "TakeToPen"]</xpath>
+    <value>
+      <workTags>
+        <li>Animals</li>
+      </workTags>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
     <xpath>/Defs/WorkGiverDef[defName = "Uninstall"]/workType</xpath>
     <value>
         <workType>BasicWorker</workType>
