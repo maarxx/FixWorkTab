@@ -335,26 +335,26 @@
     </value>
 </Operation>
 
-<Operation Class="PatchOperationReplace">
+<!-- <Operation Class="PatchOperationReplace">
     <xpath>/Defs/WorkGiverDef[defName = "TakeRoamingAnimalsToPen"]/workType</xpath>
     <value>
         <workType>BasicWorker</workType>
     </value>
-</Operation>
+</Operation> -->
 <Operation Class="PatchOperationReplace">
     <xpath>/Defs/WorkGiverDef[defName = "TakeRoamingAnimalsToPen"]/priorityInType</xpath>
     <value>
         <priorityInType>490</priorityInType>
     </value>
 </Operation>
-<Operation Class="PatchOperationAdd">
+<!-- <Operation Class="PatchOperationAdd">
     <xpath>/Defs/WorkGiverDef[defName = "TakeRoamingAnimalsToPen"]</xpath>
     <value>
       <workTags>
         <li>Animals</li>
       </workTags>
     </value>
-</Operation>
+</Operation> -->
 
 <Operation Class="PatchOperationReplace">
     <xpath>/Defs/WorkGiverDef[defName = "TakeToPen"]/workType</xpath>
@@ -376,6 +376,27 @@
       </workTags>
     </value>
 </Operation>
+
+<!-- <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "RebalanceAnimalsInPens"]/workType</xpath>
+    <value>
+        <workType>BasicWorker</workType>
+    </value>
+</Operation> -->
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "RebalanceAnimalsInPens"]/priorityInType</xpath>
+    <value>
+        <priorityInType>10</priorityInType>
+    </value>
+</Operation>
+<!-- <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/WorkGiverDef[defName = "RebalanceAnimalsInPens"]</xpath>
+    <value>
+      <workTags>
+        <li>Animals</li>
+      </workTags>
+    </value>
+</Operation> -->
 
 <Operation Class="PatchOperationReplace">
     <xpath>/Defs/WorkGiverDef[defName = "Uninstall"]/workType</xpath>
