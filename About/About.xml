@@ -7,6 +7,7 @@
   <packageId>maarx.fixworktab</packageId>
   <supportedVersions>
     <li>1.2</li>
+    <li>1.4</li>
   </supportedVersions>
   <modDependencies>
     <li>
@@ -30,17 +31,11 @@
       <displayName>Allow Tool</displayName>
       <downloadUrl>https://ludeon.com/forums/index.php?topic=17218.0</downloadUrl>
     </li>
-    <li>
-      <packageId>Mlie.SeparateTreeChoppingPriority</packageId>
-      <displayName>Separate Tree Chopping Priority (Continued)</displayName>
-      <downloadUrl>https://github.com/emipa606/SeparateTreeChoppingPriority</downloadUrl>
-    </li>
   </modDependencies>
   <loadAfter>
     <li>brrainz.harmony</li>
     <li>maarx.meditateasworktype</li>
     <li>fluffy.colonymanager</li>
     <li>UnlimitedHugs.AllowTool</li>
-    <li>Mlie.SeparateTreeChoppingPriority</li>
   </loadAfter>
 </ModMetaData>
