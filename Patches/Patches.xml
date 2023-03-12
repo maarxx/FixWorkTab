@@ -94,6 +94,13 @@
 </Operation>
 
 <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkTypeDef[defName = "Crafting"]/naturalPriority</xpath>
+    <value>
+        <naturalPriority>346</naturalPriority>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
     <xpath>/Defs/WorkTypeDef[defName = "HaulingUrgent"]/naturalPriority</xpath>
     <value>
         <naturalPriority>345</naturalPriority>
@@ -572,34 +579,4 @@
         <priorityInType>95</priorityInType>
     </value>
 </Operation>
-
-<Operation Class="PatchOperationReplace">
-    <xpath>/Defs/WorkGiverDef[defName = "DoBillsSmelter"]/workType</xpath>
-    <value>
-        <workType>Hauling</workType>
-    </value>
-</Operation>
-<Operation Class="PatchOperationReplace">
-    <xpath>/Defs/WorkGiverDef[defName = "DoBillsSmelter"]/priorityInType</xpath>
-    <value>
-        <priorityInType>25</priorityInType>
-    </value>
-</Operation>
-<Operation Class="PatchOperationAdd">
-    <xpath>/Defs/WorkGiverDef[defName = "DoBillsSmelter"]</xpath>
-    <value>
-      <workTags>
-        <li>Crafting</li>
-        <li>ManualSkilled</li>
-      </workTags>
-    </value>
-</Operation>
-
-<Operation Class="PatchOperationReplace">
-    <xpath>/Defs/WorkGiverDef[defName = "DoBillsStonecut"]/workType</xpath>
-    <value>
-        <workType>Stonecutting</workType>
-    </value>
-</Operation>
-
 </Patch>
