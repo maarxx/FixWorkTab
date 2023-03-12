@@ -99,6 +99,15 @@
         <naturalPriority>346</naturalPriority>
     </value>
 </Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkTypeDef[defName = "Crafting"]/workTags</xpath>
+    <value>
+      <workTags>
+        <li>Commoner</li>
+        <li>AllWork</li>
+      </workTags>
+    </value>
+</Operation>
 
 <Operation Class="PatchOperationReplace">
     <xpath>/Defs/WorkTypeDef[defName = "HaulingUrgent"]/naturalPriority</xpath>
@@ -586,11 +595,58 @@
     </value>
 </Operation>
 <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/WorkGiverDef[defName = "DoBillsCremate"]/workTags</xpath>
+    <xpath>/Defs/WorkGiverDef[defName = "DoBillsCremate"]</xpath>
     <value>
       <workTags>
         <li>ManualDumb</li>
         <li>Hauling</li>
+      </workTags>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationAdd">
+    <xpath>/Defs/WorkGiverDef[defName = "DoBillsUseCraftingSpot"]</xpath>
+    <value>
+      <workTags>
+        <li>ManualSkilled</li>
+        <li>Crafting</li>
+      </workTags>
+    </value>
+</Operation>
+<Operation Class="PatchOperationAdd">
+    <xpath>/Defs/WorkGiverDef[defName = "DoBillsRefinery"]</xpath>
+    <value>
+      <workTags>
+        <li>ManualSkilled</li>
+        <li>Crafting</li>
+      </workTags>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "DoBillsProduceDrugs"]</xpath>
+    <value>
+      <workTags>
+        <li>ManualSkilled</li>
+        <li>Crafting</li>
+        <li>Intellectual</li>
+      </workTags>
+    </value>
+</Operation>
+<Operation Class="PatchOperationAdd">
+    <xpath>/Defs/WorkGiverDef[defName = "DoBillsStonecut"]</xpath>
+    <value>
+      <workTags>
+        <li>ManualSkilled</li>
+        <li>Crafting</li>
+      </workTags>
+    </value>
+</Operation>
+<Operation Class="PatchOperationAdd">
+    <xpath>/Defs/WorkGiverDef[defName = "DoBillsSmelter"]</xpath>
+    <value>
+      <workTags>
+        <li>ManualSkilled</li>
+        <li>Crafting</li>
       </workTags>
     </value>
 </Operation>
@@ -608,7 +664,7 @@
     </value>
 </Operation>
 <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/WorkGiverDef[defName = "DoBillsHaulCampfire"]/workTags</xpath>
+    <xpath>/Defs/WorkGiverDef[defName = "DoBillsHaulCampfire"]</xpath>
     <value>
       <workTags>
         <li>ManualDumb</li>
