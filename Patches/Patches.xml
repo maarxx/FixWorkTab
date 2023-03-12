@@ -12,7 +12,7 @@
 <Operation Class="PatchOperationReplace">
     <xpath>/Defs/WorkTypeDef[defName = "Firefighter"]/labelShort</xpath>
     <value>
-        <labelShort>Fire(E)</labelShort>
+        <labelShort>firefight (E)</labelShort>
     </value>
 </Operation>
 
