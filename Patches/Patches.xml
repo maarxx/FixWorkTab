@@ -574,9 +574,46 @@
 </Operation>
 
 <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "DoBillsCremate"]/workType</xpath>
+    <value>
+        <workType>Crafting</workType>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
     <xpath>/Defs/WorkGiverDef[defName = "DoBillsCremate"]/priorityInType</xpath>
     <value>
-        <priorityInType>95</priorityInType>
+        <priorityInType>110</priorityInType>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "DoBillsCremate"]/workTags</xpath>
+    <value>
+      <workTags>
+        <li>ManualDumb</li>
+        <li>Hauling</li>
+      </workTags>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "DoBillsHaulCampfire"]/workType</xpath>
+    <value>
+        <workType>Crafting</workType>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "DoBillsHaulCampfire"]/priorityInType</xpath>
+    <value>
+        <priorityInType>60</priorityInType>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "DoBillsHaulCampfire"]/workTags</xpath>
+    <value>
+      <workTags>
+        <li>ManualDumb</li>
+        <li>Hauling</li>
+      </workTags>
     </value>
 </Operation>
 </Patch>
