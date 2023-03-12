@@ -585,7 +585,7 @@
         <priorityInType>110</priorityInType>
     </value>
 </Operation>
-<Operation Class="PatchOperationReplace">
+<Operation Class="PatchOperationAdd">
     <xpath>/Defs/WorkGiverDef[defName = "DoBillsCremate"]/workTags</xpath>
     <value>
       <workTags>
@@ -607,7 +607,7 @@
         <priorityInType>60</priorityInType>
     </value>
 </Operation>
-<Operation Class="PatchOperationReplace">
+<Operation Class="PatchOperationAdd">
     <xpath>/Defs/WorkGiverDef[defName = "DoBillsHaulCampfire"]/workTags</xpath>
     <value>
       <workTags>
