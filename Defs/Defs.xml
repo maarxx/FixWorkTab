@@ -46,21 +46,4 @@
       <li>AllWork</li>
     </workTags>
   </WorkTypeDef>
-  
-  <WorkTypeDef>
-    <defName>Stonecutting</defName>
-    <labelShort>Stonecutting</labelShort>
-    <pawnLabel>Stonecutter</pawnLabel>
-    <gerundLabel>cutting stone blocks at</gerundLabel>
-    <description>Cut stone chunks into stone blocks.</description>
-    <verb>Stonecutting</verb>
-    <naturalPriority>50</naturalPriority>
-    <alwaysStartActive>true</alwaysStartActive>
-    <workTags>
-      <li>Crafting</li>
-      <li>ManualSkilled</li>
-      <li>Commoner</li>
-      <li>AllWork</li>
-    </workTags>
-  </WorkTypeDef>  
 </Defs>
