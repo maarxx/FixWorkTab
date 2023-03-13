@@ -47,7 +47,7 @@
 <Operation Class="PatchOperationReplace">
     <xpath>/Defs/WorkTypeDef[defName = "PlantCutting"]/naturalPriority</xpath>
     <value>
-        <naturalPriority>720</naturalPriority>
+        <naturalPriority>650</naturalPriority>
     </value>
 </Operation>
 
