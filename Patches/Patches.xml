@@ -110,9 +110,16 @@
 </Operation>
 
 <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/WorkTypeDef[defName = "HaulingUrgent"]/naturalPriority</xpath>
+    <xpath>/Defs/WorkTypeDef[defName = "RecycleThis_Recycle"]/naturalPriority</xpath>
     <value>
         <naturalPriority>345</naturalPriority>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkTypeDef[defName = "HaulingUrgent"]/naturalPriority</xpath>
+    <value>
+        <naturalPriority>342</naturalPriority>
     </value>
 </Operation>
 <Operation Class="PatchOperationReplace">
