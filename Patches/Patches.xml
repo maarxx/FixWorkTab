@@ -99,7 +99,7 @@
         <naturalPriority>346</naturalPriority>
     </value>
 </Operation>
-<Operation Class="PatchOperationReplace">
+<!-- <Operation Class="PatchOperationReplace">
     <xpath>/Defs/WorkTypeDef[defName = "Crafting"]/workTags</xpath>
     <value>
       <workTags>
@@ -107,7 +107,7 @@
         <li>AllWork</li>
       </workTags>
     </value>
-</Operation>
+</Operation> -->
 
 <Operation Class="PatchOperationReplace">
     <xpath>/Defs/WorkTypeDef[defName = "RecycleThis_Recycle"]/naturalPriority</xpath>
@@ -193,6 +193,7 @@
     <value>
       <workTags>
         <li>Social</li>
+        <li>AllWork</li>
       </workTags>
     </value>
 </Operation>
@@ -214,6 +215,7 @@
     <value>
       <workTags>
         <li>Social</li>
+        <li>AllWork</li>
       </workTags>
     </value>
 </Operation>
@@ -235,6 +237,7 @@
     <value>
       <workTags>
         <li>Social</li>
+        <li>AllWork</li>
       </workTags>
     </value>
 </Operation>
@@ -256,6 +259,7 @@
     <value>
       <workTags>
         <li>Social</li>
+        <li>AllWork</li>
       </workTags>
     </value>
 </Operation>
@@ -277,6 +281,8 @@
     <value>
       <workTags>
         <li>Caring</li>
+        <li>Commoner</li>
+        <li>AllWork</li>
       </workTags>
     </value>
 </Operation>
@@ -296,8 +302,10 @@
 <Operation Class="PatchOperationAdd">
     <xpath>/Defs/WorkGiverDef[defName = "HandlingFeedPatientAnimals"]</xpath>
     <value>
-      <workTags>
+      <workTags Inherit="False">
         <li>Animals</li>
+        <li>Commoner</li>
+        <li>AllWork</li>
       </workTags>
     </value>
 </Operation>
@@ -319,6 +327,8 @@
     <value>
       <workTags>
         <li>Caring</li>
+        <li>Commoner</li>
+        <li>AllWork</li>
       </workTags>
     </value>
 </Operation>
@@ -340,6 +350,8 @@
     <value>
       <workTags>
         <li>Caring</li>
+        <li>Commoner</li>
+        <li>AllWork</li>
       </workTags>
     </value>
 </Operation>
@@ -361,6 +373,8 @@
     <value>
       <workTags>
         <li>Caring</li>
+        <li>Commoner</li>
+        <li>AllWork</li>
       </workTags>
     </value>
 </Operation>
@@ -403,6 +417,8 @@
     <value>
       <workTags>
         <li>Animals</li>
+        <li>Commoner</li>
+        <li>AllWork</li>
       </workTags>
     </value>
 </Operation>
@@ -445,6 +461,9 @@
     <value>
       <workTags>
         <li>ManualSkilled</li>
+        <li>Commoner</li>
+        <li>Constructing</li>
+        <li>AllWork</li>
       </workTags>
     </value>
 </Operation>
@@ -466,6 +485,9 @@
     <value>
       <workTags>
         <li>ManualSkilled</li>
+        <li>Commoner</li>
+        <li>Constructing</li>
+        <li>AllWork</li>
       </workTags>
     </value>
 </Operation>
@@ -487,6 +509,9 @@
     <value>
       <workTags>
         <li>ManualSkilled</li>
+        <li>Commoner</li>
+        <li>Constructing</li>
+        <li>AllWork</li>
       </workTags>
     </value>
 </Operation>
@@ -508,6 +533,9 @@
     <value>
       <workTags>
         <li>ManualSkilled</li>
+        <li>Commoner</li>
+        <li>Constructing</li>
+        <li>AllWork</li>
       </workTags>
     </value>
 </Operation>
@@ -529,6 +557,9 @@
     <value>
       <workTags>
         <li>ManualSkilled</li>
+        <li>Commoner</li>
+        <li>Constructing</li>
+        <li>AllWork</li>
       </workTags>
     </value>
 </Operation>
@@ -571,6 +602,9 @@
     <value>
       <workTags>
         <li>Cooking</li>
+        <li>ManualSkilled</li>
+        <li>Commoner</li>
+        <li>AllWork</li>
       </workTags>
     </value>
 </Operation>
@@ -592,6 +626,9 @@
     <value>
       <workTags>
         <li>Caring</li>
+        <li>Social</li>
+        <li>Commoner</li>
+        <li>AllWork</li>
       </workTags>
     </value>
 </Operation>
@@ -614,6 +651,8 @@
       <workTags>
         <li>ManualDumb</li>
         <li>Hauling</li>
+        <li>Commoner</li>
+        <li>AllWork</li>
       </workTags>
     </value>
 </Operation>
@@ -683,6 +722,8 @@
       <workTags>
         <li>ManualDumb</li>
         <li>Hauling</li>
+        <li>Commoner</li>
+        <li>AllWork</li>
       </workTags>
     </value>
 </Operation>
