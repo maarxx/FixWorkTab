@@ -12,7 +12,7 @@
 <Operation Class="PatchOperationReplace">
     <xpath>/Defs/WorkTypeDef[defName = "Firefighter"]/labelShort</xpath>
     <value>
-        <labelShort>Fire(E)</labelShort>
+        <labelShort>firefight (E)</labelShort>
     </value>
 </Operation>
 
@@ -47,7 +47,7 @@
 <Operation Class="PatchOperationReplace">
     <xpath>/Defs/WorkTypeDef[defName = "PlantCutting"]/naturalPriority</xpath>
     <value>
-        <naturalPriority>720</naturalPriority>
+        <naturalPriority>650</naturalPriority>
     </value>
 </Operation>
 
@@ -94,9 +94,32 @@
 </Operation>
 
 <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/WorkTypeDef[defName = "HaulingUrgent"]/naturalPriority</xpath>
+    <xpath>/Defs/WorkTypeDef[defName = "Crafting"]/naturalPriority</xpath>
+    <value>
+        <naturalPriority>346</naturalPriority>
+    </value>
+</Operation>
+<!-- <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkTypeDef[defName = "Crafting"]/workTags</xpath>
+    <value>
+      <workTags>
+        <li>Commoner</li>
+        <li>AllWork</li>
+      </workTags>
+    </value>
+</Operation> -->
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkTypeDef[defName = "RecycleThis_Recycle"]/naturalPriority</xpath>
     <value>
         <naturalPriority>345</naturalPriority>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkTypeDef[defName = "HaulingUrgent"]/naturalPriority</xpath>
+    <value>
+        <naturalPriority>342</naturalPriority>
     </value>
 </Operation>
 <Operation Class="PatchOperationReplace">
@@ -147,6 +170,13 @@
 </Operation>
 
 <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "Mine"]/priorityInType</xpath>
+    <value>
+        <priorityInType>25</priorityInType>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
     <xpath>/Defs/WorkGiverDef[defName = "DeliverFoodToPrisoner"]/workType</xpath>
     <value>
         <workType>Nurse</workType>
@@ -163,6 +193,7 @@
     <value>
       <workTags>
         <li>Social</li>
+        <li>AllWork</li>
       </workTags>
     </value>
 </Operation>
@@ -184,6 +215,7 @@
     <value>
       <workTags>
         <li>Social</li>
+        <li>AllWork</li>
       </workTags>
     </value>
 </Operation>
@@ -205,6 +237,7 @@
     <value>
       <workTags>
         <li>Social</li>
+        <li>AllWork</li>
       </workTags>
     </value>
 </Operation>
@@ -212,13 +245,13 @@
 <Operation Class="PatchOperationReplace">
     <xpath>/Defs/WorkGiverDef[defName = "ReleasePrisoner"]/workType</xpath>
     <value>
-        <workType>BasicWorker</workType>
+        <workType>Nurse</workType>
     </value>
 </Operation>
 <Operation Class="PatchOperationReplace">
     <xpath>/Defs/WorkGiverDef[defName = "ReleasePrisoner"]/priorityInType</xpath>
     <value>
-        <priorityInType>540</priorityInType>
+        <priorityInType>480</priorityInType>
     </value>
 </Operation>
 <Operation Class="PatchOperationAdd">
@@ -226,6 +259,7 @@
     <value>
       <workTags>
         <li>Social</li>
+        <li>AllWork</li>
       </workTags>
     </value>
 </Operation>
@@ -233,13 +267,13 @@
 <Operation Class="PatchOperationReplace">
     <xpath>/Defs/WorkGiverDef[defName = "TakeToBedToOperate"]/workType</xpath>
     <value>
-        <workType>BasicWorker</workType>
+        <workType>Nurse</workType>
     </value>
 </Operation>
 <Operation Class="PatchOperationReplace">
     <xpath>/Defs/WorkGiverDef[defName = "TakeToBedToOperate"]/priorityInType</xpath>
     <value>
-        <priorityInType>560</priorityInType>
+        <priorityInType>500</priorityInType>
     </value>
 </Operation>
 <Operation Class="PatchOperationAdd">
@@ -247,6 +281,8 @@
     <value>
       <workTags>
         <li>Caring</li>
+        <li>Commoner</li>
+        <li>AllWork</li>
       </workTags>
     </value>
 </Operation>
@@ -266,8 +302,10 @@
 <Operation Class="PatchOperationAdd">
     <xpath>/Defs/WorkGiverDef[defName = "HandlingFeedPatientAnimals"]</xpath>
     <value>
-      <workTags>
+      <workTags Inherit="False">
         <li>Animals</li>
+        <li>Commoner</li>
+        <li>AllWork</li>
       </workTags>
     </value>
 </Operation>
@@ -289,6 +327,8 @@
     <value>
       <workTags>
         <li>Caring</li>
+        <li>Commoner</li>
+        <li>AllWork</li>
       </workTags>
     </value>
 </Operation>
@@ -310,6 +350,8 @@
     <value>
       <workTags>
         <li>Caring</li>
+        <li>Commoner</li>
+        <li>AllWork</li>
       </workTags>
     </value>
 </Operation>
@@ -331,6 +373,8 @@
     <value>
       <workTags>
         <li>Caring</li>
+        <li>Commoner</li>
+        <li>AllWork</li>
       </workTags>
     </value>
 </Operation>
@@ -373,6 +417,8 @@
     <value>
       <workTags>
         <li>Animals</li>
+        <li>Commoner</li>
+        <li>AllWork</li>
       </workTags>
     </value>
 </Operation>
@@ -415,6 +461,9 @@
     <value>
       <workTags>
         <li>ManualSkilled</li>
+        <li>Commoner</li>
+        <li>Constructing</li>
+        <li>AllWork</li>
       </workTags>
     </value>
 </Operation>
@@ -436,6 +485,9 @@
     <value>
       <workTags>
         <li>ManualSkilled</li>
+        <li>Commoner</li>
+        <li>Constructing</li>
+        <li>AllWork</li>
       </workTags>
     </value>
 </Operation>
@@ -457,6 +509,9 @@
     <value>
       <workTags>
         <li>ManualSkilled</li>
+        <li>Commoner</li>
+        <li>Constructing</li>
+        <li>AllWork</li>
       </workTags>
     </value>
 </Operation>
@@ -478,6 +533,9 @@
     <value>
       <workTags>
         <li>ManualSkilled</li>
+        <li>Commoner</li>
+        <li>Constructing</li>
+        <li>AllWork</li>
       </workTags>
     </value>
 </Operation>
@@ -499,6 +557,9 @@
     <value>
       <workTags>
         <li>ManualSkilled</li>
+        <li>Commoner</li>
+        <li>Constructing</li>
+        <li>AllWork</li>
       </workTags>
     </value>
 </Operation>
@@ -541,6 +602,9 @@
     <value>
       <workTags>
         <li>Cooking</li>
+        <li>ManualSkilled</li>
+        <li>Commoner</li>
+        <li>AllWork</li>
       </workTags>
     </value>
 </Operation>
@@ -562,44 +626,105 @@
     <value>
       <workTags>
         <li>Caring</li>
+        <li>Social</li>
+        <li>Commoner</li>
+        <li>AllWork</li>
       </workTags>
     </value>
 </Operation>
 
 <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "DoBillsCremate"]/workType</xpath>
+    <value>
+        <workType>Crafting</workType>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
     <xpath>/Defs/WorkGiverDef[defName = "DoBillsCremate"]/priorityInType</xpath>
     <value>
-        <priorityInType>95</priorityInType>
+        <priorityInType>110</priorityInType>
+    </value>
+</Operation>
+<Operation Class="PatchOperationAdd">
+    <xpath>/Defs/WorkGiverDef[defName = "DoBillsCremate"]</xpath>
+    <value>
+      <workTags>
+        <li>ManualDumb</li>
+        <li>Hauling</li>
+        <li>Commoner</li>
+        <li>AllWork</li>
+      </workTags>
     </value>
 </Operation>
 
-<Operation Class="PatchOperationReplace">
-    <xpath>/Defs/WorkGiverDef[defName = "DoBillsSmelter"]/workType</xpath>
+<!-- <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/WorkGiverDef[defName = "DoBillsUseCraftingSpot"]</xpath>
     <value>
-        <workType>Hauling</workType>
+      <workTags>
+        <li>ManualSkilled</li>
+        <li>Crafting</li>
+      </workTags>
+    </value>
+</Operation>
+<Operation Class="PatchOperationAdd">
+    <xpath>/Defs/WorkGiverDef[defName = "DoBillsRefinery"]</xpath>
+    <value>
+      <workTags>
+        <li>ManualSkilled</li>
+        <li>Crafting</li>
+      </workTags>
     </value>
 </Operation>
 <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/WorkGiverDef[defName = "DoBillsSmelter"]/priorityInType</xpath>
+    <xpath>/Defs/WorkGiverDef[defName = "DoBillsProduceDrugs"]</xpath>
     <value>
-        <priorityInType>25</priorityInType>
+      <workTags>
+        <li>ManualSkilled</li>
+        <li>Crafting</li>
+        <li>Intellectual</li>
+      </workTags>
+    </value>
+</Operation>
+<Operation Class="PatchOperationAdd">
+    <xpath>/Defs/WorkGiverDef[defName = "DoBillsStonecut"]</xpath>
+    <value>
+      <workTags>
+        <li>ManualSkilled</li>
+        <li>Crafting</li>
+      </workTags>
     </value>
 </Operation>
 <Operation Class="PatchOperationAdd">
     <xpath>/Defs/WorkGiverDef[defName = "DoBillsSmelter"]</xpath>
     <value>
       <workTags>
-        <li>Crafting</li>
         <li>ManualSkilled</li>
+        <li>Crafting</li>
+      </workTags>
+    </value>
+</Operation> -->
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "DoBillsHaulCampfire"]/workType</xpath>
+    <value>
+        <workType>Crafting</workType>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/WorkGiverDef[defName = "DoBillsHaulCampfire"]/priorityInType</xpath>
+    <value>
+        <priorityInType>60</priorityInType>
+    </value>
+</Operation>
+<Operation Class="PatchOperationAdd">
+    <xpath>/Defs/WorkGiverDef[defName = "DoBillsHaulCampfire"]</xpath>
+    <value>
+      <workTags>
+        <li>ManualDumb</li>
+        <li>Hauling</li>
+        <li>Commoner</li>
+        <li>AllWork</li>
       </workTags>
     </value>
 </Operation>
-
-<Operation Class="PatchOperationReplace">
-    <xpath>/Defs/WorkGiverDef[defName = "DoBillsStonecut"]/workType</xpath>
-    <value>
-        <workType>Stonecutting</workType>
-    </value>
-</Operation>
-
 </Patch>
