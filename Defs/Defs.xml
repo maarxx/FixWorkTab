@@ -41,9 +41,5 @@
     <verb>Nurse</verb>
     <naturalPriority>1275</naturalPriority>
     <alwaysStartActive>true</alwaysStartActive>
-    <workTags>
-      <li>Commoner</li>
-      <li>AllWork</li>
-    </workTags>
   </WorkTypeDef>
 </Defs>
