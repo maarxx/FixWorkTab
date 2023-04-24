@@ -155,12 +155,12 @@
     </value>
 </Operation>
 
-<Operation Class="PatchOperationReplace">
+<!-- <Operation Class="PatchOperationReplace">
     <xpath>/Defs/WorkGiverDef[defName = "Tame"]/priorityInType</xpath>
     <value>
         <priorityInType>60</priorityInType>
     </value>
-</Operation>
+</Operation> -->
 
 <Operation Class="PatchOperationReplace">
     <xpath>/Defs/WorkGiverDef[defName = "GrowerSow"]/priorityInType</xpath>
