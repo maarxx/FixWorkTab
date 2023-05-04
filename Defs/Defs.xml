@@ -33,6 +33,25 @@
   </WorkGiverDef>
 
   <WorkTypeDef>
+    <defName>Teach</defName>
+    <labelShort>Teach</labelShort>
+    <pawnLabel>Teacher</pawnLabel>
+    <gerundLabel>teaching</gerundLabel>
+    <description>Teaching children.</description>
+    <verb>Teach</verb>
+    <naturalPriority>1095</naturalPriority>
+    <alwaysStartActive>true</alwaysStartActive>
+    <relevantSkills>
+      <li>Social</li>
+    </relevantSkills>
+    <workTags>
+      <li>Social</li>
+      <li>Caring</li>
+      <li>AllWork</li>
+    </workTags>
+  </WorkTypeDef>
+
+  <WorkTypeDef>
     <defName>Nurse</defName>
     <labelShort>Nurse</labelShort>
     <pawnLabel>Nurse</pawnLabel>
